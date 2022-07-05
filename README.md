@@ -9,7 +9,6 @@ You need to write a program that adheres to the following inheritance diagram. U
 # # StudentFees Class:
 As you can see StudentFees, is an abstract class (italicized) with one abstract method, getPayableAmount(). The getPayableAmount() method should return the total payable amount.
 
-UGStudent class:
 
 # # UGStudent members
 -hasScholarship – true if he received a scholarship
@@ -34,7 +33,6 @@ Tuition fee is calculated similarly as UGStudent class.
 Graduate assistantship amount is calculated based on the assistantship type, if it is a full assistantship then the full tuition fee is waived and if it is half assistantship then half of the tuition fee is waived.
 
 # # OnlineStudent class:
-
 OnlineStudent members
 noOfMonths – number of months student is enrolled for.
 -getPayableAmount(): The total fee amount student has to pay. This is calculated by multiplying the MONTHLY_FEE constant by the number of months the student is enrolled for.
